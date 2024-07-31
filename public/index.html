@@ -1,0 +1,320 @@
+
+<html lang="en">
+  <head>
+    <title>Visit www.pixelrocket.store to learn how to become a frontend web developer</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link href="template-assets/fonts/fonts.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/tailwind/tailwind.min.css"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png"/>
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js" defer="defer"></script>
+  </head>
+  <body class="antialiased bg-body text-body font-body">
+    <div>
+      <div>
+        <p class="mb-0 py-3 bg-sweetPink-200 text-sweetPink-800 text-center">Want to learn how to build templates like this one? Visit <a href="https://www.pixelrocket.store">www.pixelrocket.store</a></p>
+      </div>
+      <section class="bg-gradient-to-t from-pink-300 via-pink-700 to-darkPink-900" x-data="{ mobileNavOpen: false }">
+        <div class="container mx-auto px-4">
+          <nav class="py-5 border-b border-white border-opacity-10">
+            <div class="container mx-auto px-4">
+              <div class="flex items-center justify-between"><a href="#"><img src="images/logo-white.svg" alt=""/></a>
+                <div class="hidden lg:flex gap-2 p-1 rounded-full bg-white bg-opacity-10"><a class="px-3 py-2 rounded-full text-white text-sm hover:bg-white hover:bg-opacity-20 transition duration-200" href="#">Home</a><a class="px-3 py-2 rounded-full text-white text-sm hover:bg-white hover:bg-opacity-20 transition duration-200" href="about.html">About</a><a class="px-3 py-2 rounded-full text-white text-sm hover:bg-white hover:bg-opacity-20 transition duration-200" href="pricing.html">Pricing</a><a class="px-3 py-2 rounded-full text-white text-sm hover:bg-white hover:bg-opacity-20 transition duration-200" href="blog.html">Blog</a><a class="px-3 py-2 rounded-full text-white text-sm hover:bg-white hover:bg-opacity-20 transition duration-200" href="contact.html">Contact</a></div><a class="hidden lg:flex items-center gap-2 text-white hover:text-pink-500 transition duration-200" href="login.html"><span class="text-sm font-medium">Sign in</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewbox="0 0 16 16" fill="none">
+                    <path d="M5.5 3L10.5 8L5.5 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg></a>
+                <button class="lg:hidden" x-on:click="mobileNavOpen = !mobileNavOpen">
+                  <svg width="51" height="51" viewbox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="56" height="56" rx="28" fill="white"></rect>
+                    <path d="M37 32H19M37 24H19" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </nav>
+          <div class="relative pt-24 pb-14"><img class="hidden lg:block absolute left-16 xl:left-36 2xl:left-56 3xl:left-96 top-56" src="template-assets/images/hero/stars-pattern1.svg" alt=""/><img class="hidden lg:block absolute right-4 xl:right-36 2xl:right-56 3xl:right-96 top-56" src="template-assets/images/hero/stars-pattern2.svg" alt=""/>
+            <div class="relative z-50">
+              <h1 class="font-heading text-white text-center text-4xl sm:text-5xl md:text-7xl font-bold max-w-6xl mx-auto mb-6">Simplifying tax management for your business needs</h1>
+              <p class="text-center text-white max-w-xl mx-auto text-lg mb-12">From effortless transaction tracking to insightful financial reports, take control of your finances with precision and ease.</p>
+              <div class="mb-40 text-center"><a class="group relative inline-block p-0.5 font-semibold overflow-hidden rounded-full" href="#">
+                  <div class="absolute inset-0 bg-gradient-to-b from-white to-gray-500 group-focus:to-white opacity-40 group-focus:opacity-20 rounded-full"></div>
+                  <div class="relative z-50 flex items-center py-2 px-4 bg-white group-hover:bg-opacity-80 group-focus:bg-opacity-80 rounded-full transition duration-200">
+                    <p class="text-pinkSecondary-900">Get started for free</p>
+                  </div></a></div><img class="w-full object-cover" src="template-assets/images/hero/dashboard-pink2.png" alt=""/>
+            </div>
+          </div>
+        </div>
+        <div class="hidden fixed top-0 left-0 bottom-0 w-5/6 max-w-xs z-50" :class="{ 'hidden': !mobileNavOpen, 'block': mobileNavOpen }">
+          <div class="fixed inset-0 bg-black opacity-20" x-on:click="mobileNavOpen = !mobileNavOpen"></div>
+          <nav class="relative p-8 w-full h-full bg-white overflow-y-auto">
+            <div class="flex items-center justify-between"><a class="inline-block" href="#"><img src="images/logo-black.svg" alt=""/></a>
+              <button x-on:click="mobileNavOpen = !mobileNavOpen">
+                <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 18L18 6M6 6L18 18" stroke="#111827" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+              </button>
+            </div>
+            <ul class="flex flex-col gap-12 py-12 my-12">
+              <li><a class="text-sm font-medium" href="index.html">Home</a></li>
+              <li><a class="text-sm font-medium" href="about.html">About</a></li>
+              <li><a class="text-sm font-medium" href="pricing.html">Pricing</a></li>
+              <li><a class="text-sm font-medium" href="blog.html">Blog</a></li>
+              <li><a class="text-sm font-medium" href="contact.html">Contact</a></li>
+            </ul>
+            <div class="text-center"><a class="inline-flex items-center gap-2 text-black hover:text-opacity-80 transition duration-200" href="login.html"><span class="text-sm font-medium">Sign in</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewbox="0 0 16 16" fill="none">
+                  <path d="M5.5 3L10.5 8L5.5 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg></a></div>
+          </nav>
+        </div>
+      </section>
+      <section class="bg-darkPink-900 py-28">
+        <div class="container max-w-6xl mx-auto px-4">
+          <p class="uppercase text-sweetPink-400 text-xs tracking-widest mb-4">FEATURES</p>
+          <h1 class="font-heading text-white text-4xl md:text-5xl font-bold mb-4">Easy bookkeeping for your business</h1>
+          <p class="text-white text-opacity-70 text-lg max-w-xl mb-20">Our software provides intuitive bookkeeping solutions, allowing you to focus on growing your business rather than crunching numbers.</p>
+          <div class="rounded-2xl border border-white border-opacity-20 py-6 pr-6 pl-6 md:pl-14 mb-10">
+            <div class="flex flex-wrap items-center -m-4 mb-6">
+              <div class="w-full lg:w-1/3 p-4">
+                <div class="rounded-full border border-pink-500 w-14 h-14 flex items-center justify-center mb-6">
+                  <div class="bg-pinkSecondary-900 w-11 h-11 rounded-full border border-white border-opacity-10 flex items-center justify-center"><img class="h-6" src="template-assets/images/features/money.svg" alt=""/></div>
+                </div>
+                <h2 class="font-heading text-white text-4xl font-bold max-w-xs">Simple Accounting</h2>
+              </div>
+              <div class="w-full lg:w-2/3 p-4">
+                <div class="rounded-xl px-6 md:px-12 py-14 bg-gradient-to-b from-pink-300 via-pink-700 to-darkPink-900"><img class="rounded-xl object-cover w-full h-full" style="height:288px" src="template-assets/images/features/picture-pink1.png" alt=""/></div>
+              </div>
+            </div>
+            <div class="flex flex-wrap justify-between gap-6">
+              <div class="flex items-center gap-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20 20" fill="none">
+                  <path d="M4.16666 10.8333L5.73222 12.3988C6.70853 13.3752 8.29145 13.3752 9.26774 12.3988L15.8333 5.83325" stroke="white" style="stroke:white;stroke-opacity:1;" stroke-width="1.5" stroke-linecap="round"></path>
+                </svg>
+                <p class="text-white text-sm">Automated financial tracking</p>
+              </div>
+              <div class="flex items-center gap-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20 20" fill="none">
+                  <path d="M4.16666 10.8333L5.73222 12.3988C6.70853 13.3752 8.29145 13.3752 9.26774 12.3988L15.8333 5.83325" stroke="white" style="stroke:white;stroke-opacity:1;" stroke-width="1.5" stroke-linecap="round"></path>
+                </svg>
+                <p class="text-white text-sm">Easy invoicing and payment reminders</p>
+              </div>
+              <div class="flex items-center gap-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20 20" fill="none">
+                  <path d="M4.16666 10.8333L5.73222 12.3988C6.70853 13.3752 8.29145 13.3752 9.26774 12.3988L15.8333 5.83325" stroke="white" style="stroke:white;stroke-opacity:1;" stroke-width="1.5" stroke-linecap="round"></path>
+                </svg>
+                <p class="text-white text-sm">Real-time access to your financial data</p>
+              </div>
+            </div>
+          </div>
+          <div class="rounded-2xl border border-white border-opacity-20 py-6 pr-6 pl-6 md:pl-14 mb-10">
+            <div class="flex flex-wrap items-center -m-4">
+              <div class="w-full lg:w-1/3 p-4">
+                <div class="rounded-full border border-pink-500 w-14 h-14 flex items-center justify-center mb-6">
+                  <div class="bg-pinkSecondary-900 w-11 h-11 rounded-full border border-white border-opacity-10 flex items-center justify-center"><img class="h-6" src="template-assets/images/features/profile.svg" alt=""/></div>
+                </div>
+                <h2 class="font-heading text-white text-4xl font-bold max-w-xs">Multiple Accounts</h2>
+              </div>
+              <div class="w-full lg:w-2/3 p-4">
+                <div class="rounded-xl px-6 md:px-12 py-14 bg-gradient-to-t from-pink-300 via-pink-700 to-darkPink-900"><img class="rounded-xl object-cover w-full h-full" style="height:288px" src="template-assets/images/features/picture-pink2.png" alt=""/></div>
+              </div>
+            </div>
+          </div>
+          <div class="rounded-2xl border border-white border-opacity-20 py-6 pr-6 pl-6 md:pl-14 mb-10">
+            <div class="flex flex-wrap items-center -m-4">
+              <div class="w-full lg:w-1/3 p-4">
+                <div class="rounded-full border border-pink-500 w-14 h-14 flex items-center justify-center mb-6">
+                  <div class="bg-pinkSecondary-900 w-11 h-11 rounded-full border border-white border-opacity-10 flex items-center justify-center"><img class="h-6" src="template-assets/images/features/chart.svg" alt=""/></div>
+                </div>
+                <h2 class="font-heading text-white text-4xl font-bold max-w-xs">Detailed Analytics</h2>
+              </div>
+              <div class="w-full lg:w-2/3 p-4">
+                <div class="rounded-xl px-6 md:px-12 py-14 bg-gradient-to-b from-pink-300 via-pink-700 to-darkPink-900"><img class="rounded-xl object-cover w-full h-full" style="height:288px" src="template-assets/images/features/picture-pink3.png" alt=""/></div>
+              </div>
+            </div>
+          </div>
+          <div class="rounded-2xl border border-white border-opacity-20 py-6 pr-6 pl-6 md:pl-14">
+            <div class="flex flex-wrap items-center -m-4">
+              <div class="w-full lg:w-1/3 p-4">
+                <div class="rounded-full border border-pink-500 w-14 h-14 flex items-center justify-center mb-6">
+                  <div class="bg-pinkSecondary-900 w-11 h-11 rounded-full border border-white border-opacity-10 flex items-center justify-center"><img class="h-6" src="template-assets/images/features/cloud.svg" alt=""/></div>
+                </div>
+                <h2 class="font-heading text-white text-4xl font-bold max-w-xs">Cloud-Based System</h2>
+              </div>
+              <div class="w-full lg:w-2/3 p-4">
+                <div class="rounded-xl px-6 md:px-12 py-14 bg-gradient-to-t from-pink-300 via-pink-700 to-darkPink-900"><img class="rounded-xl object-cover w-full h-full" style="height:288px" src="template-assets/images/features/picture-pink4.png" alt=""/></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-darkPink-900 py-32">
+        <div class="container mx-auto px-4">
+          <h1 class="font-heading text-center text-white text-4xl md:text-5xl font-bold mb-20">How it works</h1><img class="rounded-3xl w-full object-cover mb-16" style="height:600px" src="template-assets/images/how-it-works/illustration-pink.png" alt=""/>
+          <div class="flex flex-wrap -m-4">
+            <div class="w-full md:w-1/3 p-4">
+              <div class="flex flex-wrap gap-2 mb-2">
+                <div class="bg-gradient-to-b from-pink-300 via-pink-700 to-darkPink-900 rounded-full p-px w-6 h-6">
+                  <div class="bg-pinkSecondary-900 rounded-full p-1">
+                    <p class="text-white text-center text-xs font-semibold">1</p>
+                  </div>
+                </div>
+                <p class="text-white text-lg font-semibold">Input Transactions</p>
+              </div>
+              <p class="text-white text-opacity-70 max-w-xs">Record your financial transactions such as receipts, and other relevant documents.</p>
+            </div>
+            <div class="w-full md:w-1/3 p-4">
+              <div class="flex flex-wrap gap-2 mb-2">
+                <div class="bg-gradient-to-b from-pink-300 via-pink-700 to-darkPink-900 rounded-full p-px w-6 h-6">
+                  <div class="bg-pinkSecondary-900 rounded-full p-1">
+                    <p class="text-white text-center text-xs font-semibold">2</p>
+                  </div>
+                </div>
+                <p class="text-white text-lg font-semibold">Categorization</p>
+              </div>
+              <p class="text-white text-opacity-70 max-w-xs">Automatically categorizes and organizes the recorded transactions, such as income and expenses.</p>
+            </div>
+            <div class="w-full md:w-1/3 p-4">
+              <div class="flex flex-wrap gap-2 mb-2">
+                <div class="bg-gradient-to-b from-pink-300 via-pink-700 to-darkPink-900 rounded-full p-px w-6 h-6">
+                  <div class="bg-pinkSecondary-900 rounded-full p-1">
+                    <p class="text-white text-center text-xs font-semibold">3</p>
+                  </div>
+                </div>
+                <p class="text-white text-lg font-semibold">Generate Reports</p>
+              </div>
+              <p class="text-white text-opacity-70 max-w-xs">Generate financial reports, such as income statements, balance sheets, and cash flow.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-darkPink-900 pt-20 pb-44" x-data="{ activeSlide: 1, slideCount: 3 }">
+        <div class="container mx-auto px-4">
+          <div class="max-w-3xl mx-auto"><img class="mx-auto mb-10" src="template-assets/images/testimonials/quote.svg" alt=""/>
+            <div class="overflow-hidden">
+              <div class="whitespace-nowrap transition-transform duration-500 ease-in-out" :style="'transform: translateX(-' + (activeSlide - 1) * 100.5 + '%)'">
+                <div class="inline-block w-full whitespace-normal">
+                  <h1 class="font-heading text-center text-white text-3xl md:text-5xl font-semibold mb-10 max-w-md md:max-w-3xl mx-auto"><span>We’re </span>                                  <span class="text-pink-500">very happy</span>                                  <span>that they are created this amazing bookkeeping software.</span></h1>
+                </div>
+                <div class="inline-block w-full whitespace-normal">
+                  <h1 class="font-heading text-center text-white text-3xl md:text-5xl font-semibold mb-10 max-w-md md:max-w-3xl mx-auto"><span>Excited to</span>  
+                                                      <span class="text-pink-500">Announce the Arrival</span>                                  <span>of This Fantastic Bookkeeping Software.</span>
+                  </h1>
+                </div>
+                <div class="inline-block w-full whitespace-normal">
+                  <h1 class="font-heading text-center text-white text-3xl md:text-5xl font-semibold mb-10 max-w-md md:max-w-3xl mx-auto"><span>Delighted to</span>                                  <span class="text-pink-500">Introduce This</span>                                  <span>Exceptional Bookkeeping Software Creation.</span></h1>
+                </div>
+              </div>
+            </div>
+            <div class="w-px h-20 mx-auto bg-white bg-opacity-20 mb-6"></div>
+            <div class="flex justify-between gap-4 mb-8 sm:mb-0">
+              <div class="hidden sm:block"><a class="group relative inline-block p-0.5 font-semibold overflow-hidden rounded-full shadow-pink hover:shadow-none focus:shadow-none" href="#" x-on:click.prevent="activeSlide = activeSlide &gt; 1 ? activeSlide - 1 : slideCount">
+                  <div class="absolute inset-0 bg-gradient-to-b from-pink-400 to-pink-500 rounded-full"></div>
+                  <div class="relative z-50 flex items-center py-2 px-4 w-14 h-14 bg-pink-500 group-hover:bg-pink-600 group-focus:bg-pink-600 rounded-full transition duration-200">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none">
+                      <path d="M15.75 19.5L8.25 12L15.75 4.5" stroke="white" style="stroke:white;stroke-opacity:1;" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </div></a></div>
+              <div class="overflow-hidden">
+                <div class="whitespace-nowrap transition-transform duration-500 ease-in-out" :style="'transform: translateX(-' + (activeSlide - 1) * 100.5 + '%)'">
+                  <div class="inline-block w-full whitespace-normal">
+                    <div class="rounded-full mx-auto bg-white bg-opacity-10 py-2 pl-2 pr-8 flex gap-4 w-60"><img class="h-12" src="template-assets/images/testimonials/avatar.png" alt=""/>
+                      <div>
+                        <p class="text-white font-semibold">Cooper Levin</p>
+                        <p class="text-gray-400 text-sm">Founder of AIME Inc.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="inline-block w-full whitespace-normal">
+                    <div class="rounded-full mx-auto bg-white bg-opacity-10 py-2 pl-2 pr-8 flex gap-4 w-60"><img class="h-12" src="template-assets/images/testimonials/avatar.png" alt=""/>
+                      <div>
+                        <p class="text-white font-semibold">David Dobryk</p>
+                        <p class="text-gray-400 text-sm">Founder & CEO</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="inline-block w-full whitespace-normal">
+                    <div class="rounded-full mx-auto bg-white bg-opacity-10 py-2 pl-2 pr-8 flex gap-4 w-60"><img class="h-12" src="template-assets/images/testimonials/avatar.png" alt=""/>
+                      <div>
+                        <p class="text-white font-semibold">Milena Graz</p>
+                        <p class="text-gray-400 text-sm">Head of Technology</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="hidden sm:block"><a class="group relative inline-block p-0.5 font-semibold overflow-hidden rounded-full shadow-pink hover:shadow-none focus:shadow-none" href="#" x-on:click.prevent="activeSlide = activeSlide &lt; slideCount ? activeSlide + 1 : 1">
+                  <div class="absolute inset-0 bg-gradient-to-b from-pink-400 to-pink-500 rounded-full"></div>
+                  <div class="relative z-50 flex items-center py-2 px-4 w-14 h-14 bg-pink-500 group-hover:bg-pink-600 group-focus:bg-pink-600 rounded-full transition duration-200">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none">
+                      <path d="M8.25 4.5L15.75 12L8.25 19.5" stroke="white" style="stroke:white;stroke-opacity:1;" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </div></a></div>
+            </div>
+            <div class="flex sm:hidden justify-center gap-4"><a class="group relative inline-block p-0.5 font-semibold overflow-hidden rounded-full shadow-pink hover:shadow-none focus:shadow-none" href="#" x-on:click.prevent="activeSlide = activeSlide &gt; 1 ? activeSlide - 1 : slideCount">
+                <div class="absolute inset-0 bg-gradient-to-b from-pink-400 to-pink-500 rounded-full"></div>
+                <div class="relative z-50 flex items-center py-2 px-4 w-14 h-14 bg-pink-500 group-hover:bg-pink-600 group-focus:bg-pink-600 rounded-full transition duration-200">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none">
+                    <path d="M15.75 19.5L8.25 12L15.75 4.5" stroke="white" style="stroke:white;stroke-opacity:1;" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </div></a>                      <a class="group relative inline-block p-0.5 font-semibold overflow-hidden rounded-full shadow-pink hover:shadow-none focus:shadow-none" href="#" x-on:click.prevent="activeSlide = activeSlide &lt; slideCount ? activeSlide + 1 : 1">
+                <div class="absolute inset-0 bg-gradient-to-b from-pink-400 to-pink-500 rounded-full"></div>
+                <div class="relative z-50 flex items-center py-2 px-4 w-14 h-14 bg-pink-500 group-hover:bg-pink-600 group-focus:bg-pink-600 rounded-full transition duration-200">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none">
+                    <path d="M8.25 4.5L15.75 12L8.25 19.5" stroke="white" style="stroke:white;stroke-opacity:1;" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </div></a></div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-darkPink-900 py-28">
+        <div class="container mx-auto px-4">
+          <div class="rounded-3xl w-full px-7 md:px-14 py-20 bg-gradient-to-t from-pink-300 via-pink-700 to-darkPink-900 relative h-96">
+            <div class="relative z-50 flex flex-col justify-center items-start h-full">
+              <h1 class="font-heading text-white text-4xl md:text-5xl font-bold mb-10 max-w-md md:max-w-xl">Want to learn how to build templates like this one?</h1><a class="group relative inline-block p-0.5 font-semibold overflow-hidden rounded-full" href="#">
+                <div class="absolute inset-0 bg-gradient-to-b from-white to-gray-500 group-focus:to-white opacity-40 group-focus:opacity-20 rounded-full"></div></a>
+              <div class="relative z-50 flex items-center py-3 px-5 bg-white group-hover:bg-white group-focus:bg-white group-hover:bg-opacity-80 group-focus:bg-opacity-80 rounded-full transition duration-200"><a class="group relative inline-block p-0.5 font-semibold overflow-hidden rounded-full" href="#">            </a><a class="text-pinkSecondary-900" href="https://www.pixelrocket.store">Visit Pixel Rocket</a></div>
+            </div><img class="absolute right-0 top-0 object-cover h-full rounded-3xl" src="template-assets/images/cta/illustration-pink.svg" alt=""/>
+          </div>
+        </div>
+      </section>
+      <section class="bg-darkPink-900 py-20">
+        <div class="container mx-auto px-4">
+          <div class="pb-20 border-b border-white border-opacity-30 mb-10">
+            <div class="flex flex-wrap justify-between -m-4">
+              <div class="w-full lg:w-1/6 p-4"><a class="inline-block" href="#"><img class="h-16" src="images/logo-white.svg" alt=""/></a></div>
+              <div class="w-full sm:w-1/2 lg:w-1/6 p-4">
+                <ul class="flex flex-col gap-6">
+                  <li><a class="text-white hover:text-opacity-70 text-xl transition duration-200" href="#">Features</a></li>
+                  <li><a class="text-white hover:text-opacity-70 text-xl transition duration-200" href="#">How it works</a></li>
+                </ul>
+              </div>
+              <div class="w-full sm:w-1/2 lg:w-1/6 p-4">
+                <ul class="flex flex-col gap-6">
+                  <li><a class="text-white hover:text-opacity-70 text-xl transition duration-200" href="#">Pricing</a></li>
+                  <li><a class="text-white hover:text-opacity-70 text-xl transition duration-200" href="#">FAQs</a></li>
+                </ul>
+              </div>
+              <div class="w-full sm:w-1/2 lg:w-1/6 p-4">
+                <ul class="flex flex-col gap-6">
+                  <li><a class="text-white hover:text-opacity-70 text-xl transition duration-200" href="about.html">About</a></li>
+                  <li><a class="text-white hover:text-opacity-70 text-xl transition duration-200" href="#">Blog</a></li>
+                </ul>
+              </div>
+              <div class="w-full sm:w-1/2 lg:w-1/6 p-4">
+                <ul class="flex flex-col gap-6">
+                  <li><a class="text-white hover:text-opacity-70 text-xl transition duration-200" href="#">Contact Us</a></li>
+                  <li><a class="text-white hover:text-opacity-70 text-xl transition duration-200" href="#">Privacy Policy</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-between items-center flex-wrap gap-6">
+            <p class="text-white">© Easy Tax. All rights reserved.</p>
+            <div class="flex flex-wrap gap-6"><a href="#"><img src="template-assets/images/logos/twitter-x-logo.svg" alt=""/></a>        <a href="#"><img src="template-assets/images/logos/linkedin-logo.svg" alt=""/></a>        <a href="#"><img src="template-assets/images/logos/instagram-logo.svg" alt=""/></a>        <a href="#"><img src="template-assets/images/logos/facebook-logo.svg" alt=""/></a></div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
